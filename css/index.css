@@ -172,9 +172,259 @@ header>.btn {
 #box02 .box>div p.btn>button {
     width: 196px;
     height: 53px;
-    background-color: 949494;
+    background-color: #949494;
     border: none;
     color: #fff;
     font-size: 20px;
     border-radius: 26px;
+}
+
+/* box03 */
+#box03 {}
+
+#box03>div {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#box03 .box {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#box03 .box>div {
+    width: 50%;
+}
+
+#box03 .box>div>p.text {
+    line-height: 30px;
+    width: 493px;
+}
+
+#box03 .box>ul {
+    width: 50%;
+}
+
+#box03 .box>ul>li {
+    border: 2px solid #cbcbcb;
+    width: 80px;
+    height: 80px;
+    margin: 0 8px 16px;
+    float: left;
+    text-indent: -9999px;
+    background: url('../images/icon/html5.png') no-repeat center;
+}
+
+#box03 .box>ul>li:nth-child(2) {
+    background-image: url('../images/icon/css3.png');
+}
+
+#box03 .box>ul>li:nth-child(3) {
+    background-image: url('../images/icon/javascript.png');
+}
+
+#box03 .box>ul>li:nth-child(4) {
+    background-image: url('../images/icon/jquery.png');
+}
+
+#box03 .box>ul>li:nth-child(5) {
+    background-image: url('../images/icon/vue.png');
+}
+
+#box03 .box>ul>li:nth-child(6) {
+    background-image: url('../images/icon/react.png');
+}
+
+#box03 .box>ul>li:nth-child(7) {
+    background-image: url('../images/icon/git.png');
+}
+
+#box03 .box>ul>li:nth-child(8) {
+    background-image: url('../images/icon/npm.png');
+}
+
+#box03 .box>ul>li:nth-child(9) {
+    background-image: url('../images/icon/sass.png');
+}
+
+#box03 .box>ul>li:nth-child(10) {
+    background-image: url('../images/icon/typescript.png');
+}
+
+#box03 .box>ul>li:nth-child(11) {
+    background-image: url('../images/icon/vs-code.png');
+}
+
+#box03 .box>ul>li:nth-child(12) {
+    background-image: none;
+}
+
+/* box04 */
+#box04 {
+    background-color: #c3c3c3;
+    text-align: center;
+
+}
+
+#box04 h3 {
+    color: #fff;
+}
+
+#box04 div>.title {
+    color: #fff;
+}
+
+#box04 div>.text {
+    line-height: 30px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+#box04 div>ul {
+    margin-bottom: 40px;
+}
+
+#box04 div>ul>li {
+    display: inline-block;
+    padding: 0 20px;
+    border-left: 1px solid #fff;
+}
+
+#box04 div>ul>li:first-child {
+    border-left: none;
+}
+
+#box04 div>ul>li>a {
+    color: #fff;
+}
+
+#galley {}
+
+#galley #all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#galley figure {
+    width: calc(33% - 46px);
+    margin-bottom: 46px;
+    color: #fff;
+}
+
+#galley figure>img {
+    margin-bottom: 23px;
+
+}
+
+#galley .prev {
+    display: none;
+}
+
+#galley .next {
+    display: none;
+}
+
+/* box05 */
+#box05 {
+    background-color: #9c9c9c;
+}
+
+#box05>div {
+    width: 1103px;
+    margin: 0 auto;
+}
+
+#box05 .box {
+    position: relative;
+    padding-right: 480px;
+}
+
+#box05 h3 {
+    color: #fff;
+}
+
+#box05 .box>div {
+    /* jquery 해결 */
+    height: 466px;
+}
+
+
+#box05 .box>div .title {
+    color: #fff;
+}
+
+#box05 .box>div .text {
+    line-height: 30px;
+    width: 446px;
+    color: #fff;
+}
+
+#box05 .box>form {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 443px;
+    background-color: #fff;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+#box05 form ul>li {
+    margin-bottom: 20px;
+}
+
+#box05 form ul>li>label {
+    display: block;
+}
+
+#box05 form ul>li>input {
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 43px;
+    background-color: #eaeaea;
+    border: none;
+}
+
+#box05 form ul>li>textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 120px;
+    background-color: #eaeaea;
+    border: none;
+}
+
+#box05 form p>input {
+    border: none;
+    background-color: #eaeaea;
+    width: 100%;
+    line-height: 43px;
+}
+
+aside p.top {
+    position: fixed;
+    right: 22px;
+    bottom: 125px;
+    width: 35px;
+    height: 35px;
+    line-height: 1;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: orange;
+}
+
+aside .scroll {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
 }
